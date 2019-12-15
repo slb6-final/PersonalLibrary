@@ -68,6 +68,7 @@ def remove_entry():
 
 # function for main interface.
 def main():
+    print("Welcome to your personal library.")
     print("Would you like to ADD an entry?")
     condition = yes_no(input("Enter 'Y' for yes or 'N' for no: "))
     if condition is True:
